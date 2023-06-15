@@ -3344,10 +3344,11 @@ div#email {
 
 
 .section {
-    position: relative;
-    background-color: #ffffff;
-    padding: 100px;
+  position: relative;
+  background-color: #ffffff;
+  padding: 100px;
 }
+
 @media screen and (max-width: 575px) {
   .footer .footer-top .footer-info p {
     width: auto !important;
@@ -3398,60 +3399,75 @@ div#email {
     width: 300px;
     height: auto;
   }
+
   .call-to-action p {
     width: 300px;
   }
+
   #recent-posts_1 .recent_post_title {
-    padding: 0px 0px 0px 0px; 
-}
-#faq .gy-4 {
-  --bs-gutter-y: 0rem;
-}
-.faq .faq-container .faq-item {
-  box-shadow: 0px 5px 25px 0px rgba(var(--color-default-rgb), 0);
-}
-.menu h2 {
-  width: 300px;
-  height: auto;
-}
-.portfolio ul.portfolio-filters.isotope-filters.aos-init.aos-animate {
-   margin-left: 0px; 
-}
-#features_1 .features_1_box {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
-}
-#features_1 .description {
-  width: 256px !important;
-  height: auto;
-  margin-left: 15px;
-}
-section#features {
-  padding: 10px 0px !important;
-}
-section#our_services {
-  padding: 10px !important;
-}
-.features .icons_dis {
-  width: 300px;
-  height: 44px;
-}
-#our_services .heading {
-   width: 300px;
-   height: auto;
-}
-#our_services .head_desc {
-  width: 300px;
-   height: auto;
-}
-.box {
-  position: relative !important;
-  top: 0px !important;
-}
-.section {
-  position: relative;
-  padding: 0px !important;
-}
+    padding: 0px 0px 0px 0px;
+  }
+
+  #faq .gy-4 {
+    --bs-gutter-y: 0rem;
+  }
+
+  .faq .faq-container .faq-item {
+    box-shadow: 0px 5px 25px 0px rgba(var(--color-default-rgb), 0);
+  }
+
+  .menu h2 {
+    width: 300px;
+    height: auto;
+  }
+
+  .portfolio ul.portfolio-filters.isotope-filters.aos-init.aos-animate {
+    margin-left: 0px;
+  }
+
+  #features_1 .features_1_box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #features_1 .description {
+    width: 256px !important;
+    height: auto;
+    margin-left: 15px;
+  }
+
+  section#features {
+    padding: 10px 0px !important;
+  }
+
+  section#our_services {
+    padding: 10px !important;
+  }
+
+  .features .icons_dis {
+    width: 300px;
+    height: 44px;
+  }
+
+  #our_services .heading {
+    width: 300px;
+    height: auto;
+  }
+
+  #our_services .head_desc {
+    width: 300px;
+    height: auto;
+  }
+
+  .box {
+    position: relative !important;
+    top: 0px !important;
+  }
+
+  .section {
+    position: relative;
+    padding: 0px !important;
+  }
 }
