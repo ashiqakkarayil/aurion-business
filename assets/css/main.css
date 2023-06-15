@@ -3346,7 +3346,6 @@ div#email {
 .section {
     position: relative;
     background-color: #ffffff;
-    
     padding: 100px;
 }
 @media screen and (max-width: 575px) {
