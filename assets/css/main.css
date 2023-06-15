@@ -310,6 +310,8 @@ main#main {
 
 }
 
+
+
 /* Global Header on page scroll
 ------------------------------*/
 .scrolled .header {
@@ -3142,10 +3144,11 @@ div#email {
 }
 
 .footer .footer-top {
-  background:  #212121;;
+  background: #212121;
+  ;
   background-size: contain;
   border-top: 1px solid #e1ecff;
- 
+
   padding: 60px 0 30px 0;
 }
 
@@ -3165,7 +3168,7 @@ div#email {
 }
 
 .footer .footer-top .footer-info .logo img {
- 
+
   margin-right: 6px;
 }
 
@@ -3227,8 +3230,8 @@ div#email {
 .footer .footer-top .footer-links ul i {
   padding-right: 12px;
   color: #ffffff;
- 
- 
+
+
 }
 
 .footer .footer-top .footer-links ul li {
@@ -3245,18 +3248,18 @@ div#email {
 
 
   height: 25px;
-  
+
   font-family: 'Dosis';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  
+
   color: #FFFFFF;
-  
-  
+
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -3274,30 +3277,30 @@ div#email {
   text-align: center;
   padding-top: 30px;
   font-family: 'Dosis';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-family: 'Dosis';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .footer i.bi {
   color: white;
   font-size: 18px;
- 
+
 }
 
 .footer-contact ul i.bi {
@@ -3305,35 +3308,150 @@ color: #FFFFFF;
   font-size: 26px;
   color: #ffffff;
 }
-.footer-contact  li {
+
+.footer-contact li {
   padding: 10px;
 }
 
 .footer-contact a {
 
-width: 148px;
-height: 25px;
+  width: 148px;
+  height: 25px;
 
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 90%;
-line-height: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90%;
+  line-height: 20px;
 
 
-text-transform: uppercase;
+  text-transform: uppercase;
 
-/* White */
+  /* White */
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
-.footer-contact  ul {
+
+.footer-contact ul {
   padding-left: 0rem;
 }
 
-.cop
-{
+.cop {
   border-top: 2px solid #0077C8;
+}
+
+
+.section {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+}
+@media screen and (max-width: 575px) {
+  .footer .footer-top .footer-info p {
+    width: auto !important;
+  }
+
+
+
+  .footer .footer-top .footer-links {
+    margin-bottom: 0px;
+  }
+
+  .footer .footer-top h4 {
+    margin-bottom: 10px;
+  }
+
+  main#main {
+    padding-bottom: 30px;
+  }
+
+  section {
+    scroll-margin-top: 0px;
+    padding: 30px 0px !important;
+  }
+
+
+
+  #recent-posts .heading {
+    width: auto;
+    height: auto;
+  }
+
+  section#faq {
+    padding: 30px 0px 30px 0px !important;
+    background-color: #F9F9F9;
+  }
+
+  #faq .menu h2 {
+    width: auto;
+    height: auto;
+  }
+
+  #faq .paragraph p {
+    width: auto;
+    height: auto;
+  }
+
+  .faq .faq-container .faq-item .faq-content p {
+    width: 300px;
+    height: auto;
+  }
+  .call-to-action p {
+    width: 300px;
+  }
+  #recent-posts_1 .recent_post_title {
+    padding: 0px 0px 0px 0px; 
+}
+#faq .gy-4 {
+  --bs-gutter-y: 0rem;
+}
+.faq .faq-container .faq-item {
+  box-shadow: 0px 5px 25px 0px rgba(var(--color-default-rgb), 0);
+}
+.menu h2 {
+  width: 300px;
+  height: auto;
+}
+.portfolio ul.portfolio-filters.isotope-filters.aos-init.aos-animate {
+   margin-left: 0px; 
+}
+#features_1 .features_1_box {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#features_1 .description {
+  width: 256px !important;
+  height: auto;
+  margin-left: 15px;
+}
+section#features {
+  padding: 10px 0px !important;
+}
+section#our_services {
+  padding: 10px !important;
+}
+.features .icons_dis {
+  width: 300px;
+  height: 44px;
+}
+#our_services .heading {
+   width: 300px;
+   height: auto;
+}
+#our_services .head_desc {
+  width: 300px;
+   height: auto;
+}
+.box {
+  position: relative !important;
+  top: 0px !important;
+}
+.section {
+  position: relative;
+  padding: 0px !important;
+}
 }
