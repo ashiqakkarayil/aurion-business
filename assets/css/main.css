@@ -2043,11 +2043,12 @@ color: #010203;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid#0077c8;
+
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color:#0077c8;
 }
 
 .testimonials .swiper-slide {
@@ -3377,26 +3378,6 @@ div#email {
   padding: 10px;
 }
 
-.footer-contact a {
-
-  width: 148px;
-  height: 25px;
-
-
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 90%;
-  line-height: 20px;
-
-
-  text-transform: uppercase;
-
-  /* White */
-
-  color: #FFFFFF;
-
-}
 
 .footer-contact ul {
   padding-left: 0rem;
@@ -3578,4 +3559,15 @@ div#email {
   /* text-align: center; */
   
 }
+}
+.footer-contact a {
+  width: 148px;
+  height: 25px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 20px;
+  /* text-transform: uppercase; */
+  color: #FFFFFF;
 }
