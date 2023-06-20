@@ -1,7 +1,7 @@
 /* Fonts */
 :root {
-  --font-default: 'Dosis', sans-serif;
-  --font-primary: 'Dosis', sans-serif;
+  --font-default: 'Open Sans', sans-serif;
+  --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'Open Sans', sans-serif;
 }
 
@@ -215,7 +215,7 @@ main#main {
 }
 
 #hero h2 {
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   color: #212121;
 
@@ -235,7 +235,7 @@ main#main {
 
 .button_class button {
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
 
 
@@ -268,7 +268,7 @@ main#main {
     position: relative;
 
 
-    font-family: 'Dosis';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
@@ -775,7 +775,7 @@ section {
   height: 51px;
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -935,7 +935,7 @@ section {
 .features .icons_num {
   width: 26px;
   height: 30px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -981,7 +981,7 @@ a.btn.btn-get-started.align-self-start {
   font-size: 20px;
   line-height: 25px;
   color: #0077C8;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
 }
 
@@ -996,7 +996,7 @@ a.btn.btn-get-started.align-self-start {
   left: 773px;
   top: 1170px;
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
 }
 
@@ -1012,7 +1012,7 @@ a.btn.btn-get-started.align-self-start {
 .sub_menu_1 h5 {
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1186,7 +1186,7 @@ a.btn.btn-get-started.align-self-start {
   height: 102px;
   left: 160px;
   top: 1970px;
-  font-family: "Dosis";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -1220,7 +1220,7 @@ a.btn.btn-get-started.align-self-start {
 
 .our_services .icon-box h4 {
   padding: 20px 0px 10px 0px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -1478,7 +1478,7 @@ a.btn.btn-get-started.align-self-start {
   margin: 0;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1528,7 +1528,7 @@ a.btn.btn-get-started.align-self-start {
   height: 66px;
   /* left: 571px; */
   /* top: 4152px; */
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -1670,7 +1670,7 @@ a.btn.btn-get-started.align-self-start {
   /* height: 51px; */
   left: 387px;
   top: 4833px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -1724,7 +1724,7 @@ a.cta-btn {
   /* height: 20px; */
   left: 680px;
   top: 4993px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1818,7 +1818,7 @@ a.cta-btn {
   width: 507px;
   height: 70px;
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
 }
 
@@ -1858,7 +1858,7 @@ a.cta-btn {
 
   width: 237px;
   height: 33px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
@@ -1908,7 +1908,7 @@ section#faq {
 
   width: 475px;
   height: 51px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -1990,7 +1990,7 @@ section#faq {
 
   width: 179px;
   height: 25px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2003,7 +2003,7 @@ section#faq {
 
   width: 200px;
   height: 40px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2166,7 +2166,7 @@ section#faq {
 
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -2198,7 +2198,7 @@ section#faq {
 #recent-posts .read {
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2541,7 +2541,7 @@ section#faq {
   height: 51px;
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -2647,7 +2647,7 @@ section#faq {
 
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -2679,7 +2679,7 @@ section#faq {
 #recent-posts_1 .read {
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2761,7 +2761,7 @@ section#faq {
   width: 257.3px;
   /* height: 33px; */
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -2783,7 +2783,7 @@ section#faq {
   height: 25px;
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2864,7 +2864,7 @@ section#faq {
 
   /* height: 33px; */
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -2886,7 +2886,7 @@ section#faq {
   height: 25px;
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -3048,7 +3048,7 @@ div#email {
   height: 25px;
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -3066,7 +3066,7 @@ div#email {
   height: 25px;
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -3117,7 +3117,7 @@ div#email {
 
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -3129,7 +3129,7 @@ div#email {
 .footer .footer-links ul a {
 
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -3294,7 +3294,7 @@ div#email {
 
 .footer .footer-top h4 {
   margin-bottom: 40px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -3334,7 +3334,7 @@ div#email {
 
   height: 25px;
 
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -3361,7 +3361,7 @@ div#email {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -3373,7 +3373,7 @@ div#email {
 .footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -3484,7 +3484,7 @@ div#email {
 
   #hero_conent .hero_cont_head h2 {
   
-    font-family: 'Dosis';
+    font-family: 'Open Sans';
     font-style: normal;
     color: #212121;
     font-size: 26px;
@@ -3493,7 +3493,7 @@ div#email {
 }
 #hero_conent .hero_cont_head p {
   padding: 0px 20px;
-  font-family: 'Dosis';
+  font-family: 'Open Sans';
   font-style: normal;
   color: #212121;
   font-size: 20px;
