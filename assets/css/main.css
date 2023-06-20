@@ -1856,8 +1856,10 @@ a.cta-btn {
 
 .faq .faq-container .faq-item h3 {
 
-  width: 237px;
-  height: 33px;
+  /* width: 237px;
+  height: 33px; */
+  width: 300px;
+  
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
@@ -1988,8 +1990,8 @@ section#faq {
 
 #testimonials .test_pic_des h3.test_pic_head {
 
-  width: 179px;
-  height: 25px;
+  width: 200px;
+  height: auto;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
