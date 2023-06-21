@@ -1148,7 +1148,7 @@ a.btn.btn-get-started.align-self-start {
 
   /* Grey */
 
-  background: #F9F9F9;
+  background:  #dddddd;
   border-radius: 5px;
 }
 
@@ -1211,7 +1211,7 @@ a.btn.btn-get-started.align-self-start {
   height: 275px;
   padding: 40px 20px;
   transition: all ease-in-out 0.3s;
-  background: #F9F9F9;
+  background: #dddddd;
   border-radius: 1px;
   border-bottom: 0px solid #fff;
 }
@@ -1512,6 +1512,7 @@ a.btn.btn-get-started.align-self-start {
 
 @media (max-width: 575px) {
   .portfolio .portfolio-filters li {
+    padding: 8px 15px 10px 10px;
     font-size: 14px;
     margin: 0 0 10px 0;
   }
@@ -1887,7 +1888,7 @@ a.cta-btn {
 
 section#faq {
   padding: 60px 0px 90px 0px;
-  background-color: #F9F9F9;
+  background-color:  #dddddd;
 
 }
 
@@ -2099,7 +2100,7 @@ section#faq {
 ------------------------------*/
 .recent-posts article {
 
-  background-color: #f9f9f9;
+  background-color:  #dddddd;
   box-shadow: 0 4px 16px rgba(var(--color-default-rgb), 0.1);
 
   height: 100%;
@@ -2157,7 +2158,7 @@ section#faq {
   height: 237px;
   padding: 20px 30px 20px 30px;
 
-  background: #F9F9F9;
+  background:  #dddddd;
 
 }
 
@@ -2587,7 +2588,7 @@ section#faq {
 /* Recent-posts Section - Home Page
 ------------------------------*/
 .recent-posts_1 article {
-  background: #F9F9F9;
+  background:  #dddddd;
   box-shadow: 0 4px 16px rgba(var(--color-default-rgb), 0.1);
   padding: 30px 30px 10px 30px;
   height: 100%;
@@ -2716,7 +2717,7 @@ section#faq {
   top: 50%;
   left: 50%;
   position: absolute;
-  /* background: #F9F9F9; */
+  /* background:  #dddddd; */
   /* transform: rotate(90deg); */
   font-size: 100px;
   color: #f8f8f8;
@@ -2736,9 +2737,9 @@ section#faq {
 
 
 #icon-boxes .col-4.icon-boxes_1 {
-  border: 1px solid #F9F9F9;
+  border: 1px solid  #dddddd;
   height: 300px;
-  background: #F9F9F9;
+  background:  #dddddd;
   padding: 30px 20px 30px 20px;
 }
 
@@ -2772,11 +2773,11 @@ section#faq {
 }
 
 #icon-boxes .icon-boxes_2 .icon_head {
-  color: #F9F9F9;
+  color:  #dddddd;
 }
 
 #icon-boxes .icon-boxes_3 .icon_head {
-  color: #F9F9F9;
+  color:  #dddddd;
 }
 
 #icon-boxes .icon_learn {
@@ -2793,7 +2794,7 @@ section#faq {
 
 
 
-  color: #F9F9F9;
+  color:  #dddddd;
 }
 
 #icon-boxes .icon_sub_des {
@@ -2811,7 +2812,7 @@ section#faq {
 
   /* Grey */
 
-  color: #F9F9F9;
+  color:  #dddddd;
 
 }
 
@@ -2876,11 +2877,11 @@ section#faq {
 }
 
 #section2 .icon-boxes_2 .icon_head {
-  color: #F9F9F9;
+  color:  #dddddd;
 }
 
 #section2 .icon-boxes_3 .icon_head {
-  color: #F9F9F9;
+  color:  #dddddd;
 }
 
 #section2 .icon_learn {
@@ -2897,7 +2898,7 @@ section#faq {
 
 
 
-  color: #F9F9F9;
+  color:  #dddddd;
 }
 
 #section2 .icon_sub_des {
@@ -2915,7 +2916,7 @@ section#faq {
 
   /* Grey */
 
-  color: #F9F9F9;
+  color:  #dddddd;
 
 }
 
@@ -3473,7 +3474,7 @@ div#email {
   }
   #hero_conent 
   {
-    --color-background: #F9F9F9;
+    --color-background:  #dddddd;
     display: block;
   }
 
@@ -3517,7 +3518,7 @@ div#email {
   }
   .hero {
     min-height: 60vh;
-    --color-background: #F9F9F9;
+    --color-background:  #dddddd;
 
   }
 
@@ -3584,7 +3585,7 @@ div#email {
 
   section#faq {
     padding: 30px 0px 30px 0px !important;
-    background-color: #F9F9F9;
+    background-color:  #dddddd;
   }
 
   #faq .menu h2 {
