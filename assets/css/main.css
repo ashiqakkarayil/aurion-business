@@ -3468,6 +3468,23 @@ div#email {
 }
 
 @media screen and (max-width: 575px) {
+  #recent-posts_1 .heading {
+    width: 300px;
+    height: auto;
+  }
+  .our_services .icon-box {
+    height: 300px;
+  }
+  .call-to-action h3 {
+    font-size: 40px;
+  }
+  #section2 .icon-boxes_1 {
+    height: 330px;
+  }
+
+  #section2 .icon-boxes_2 {
+    height: 330px;
+  }
 
   .faq .faq-container .faq-active {
     height: 280px;
