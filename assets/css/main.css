@@ -2113,6 +2113,7 @@ section#faq {
 
   overflow: hidden;
   object-fit: fill;
+
 }
 
 .recent-posts .post-category {
@@ -2226,7 +2227,7 @@ section#faq {
 .recent-posts .img-fluid {
 
   min-width: 100%;
-  height: none;
+  height: 250px;
 }
 
 .recent-posts .post-img .img-fluid:hover {
