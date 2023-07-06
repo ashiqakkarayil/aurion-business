@@ -442,6 +442,7 @@ section {
   }
 
   .navmenu .dropdown:hover>ul {
+    width: 290px;
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -456,7 +457,7 @@ section {
   .navmenu .dropdown .dropdown:hover>ul {
     opacity: 1;
     top: 0;
-    left: -100%;
+    left: 100%;
     visibility: visible;
   }
 
@@ -514,6 +515,16 @@ section {
 @media (max-width: 1199px) {
 
 
+  ul.dd-box-shadow.second.dropdown-active {
+    margin: 0px !important;
+    height: 200px;
+    background-color: none !important;
+    background-color: rgb(254 254 254 / 0%);
+    padding: 0px;
+    border: none;
+    box-shadow: none;
+  }
+
   .navmenu a.dropdown-item {
     font-size: 16px;
   }
@@ -536,13 +547,17 @@ section {
     z-index: 9997;
   }
 
+  span.buss {
+    font-size: 18px;
+  }
+
   .navmenu ul {
     display: none;
     position: absolute;
     inset: 60px 10px 20px 10px;
     padding: 10px 0;
     margin: 0;
-    height: 60vh;
+    height: 65vh;
     border-radius: 6px;
     background-color: var(--color-nav-mobile-background);
     overflow-y: auto;
@@ -595,8 +610,8 @@ section {
 
   .navmenu .active i,
   .navmenu .active:focus i {
-    background-color: var(--color-primary);
-    color: var(--color-inverse);
+    background-color: rgba(var(--color-primary-rgb), 0.1);
+    /* color: var(--color-inverse); */
     transform: rotate(180deg);
   }
 
