@@ -514,9 +514,10 @@ section {
 @media (max-width: 1199px) {
 
 
-  .navmenu  a.dropdown-item {
+  .navmenu a.dropdown-item {
     font-size: 16px;
-}
+  }
+
   #header .social-links {
     display: none;
   }
@@ -583,7 +584,7 @@ section {
   .navmenu a:focus i:hover {
     background-color: rgba(var(--color-primary-rgb), 0.1);
     color: var(--color-inverse);
-   
+
   }
 
   .navmenu a:hover,
@@ -702,7 +703,7 @@ section {
   justify-content: center;
   left: 0;
   top: 0;
-  
+
 }
 
 #preloader div {
@@ -1159,7 +1160,7 @@ a.btn.btn-get-started.align-self-start {
 
   /* Grey */
 
-  background:  #dddddd;
+  background: #dddddd;
   border-radius: 5px;
 }
 
@@ -1875,7 +1876,7 @@ a.cta-btn {
   /* width: 237px;
   height: 33px; */
   width: 300px;
-  
+
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
@@ -1903,7 +1904,7 @@ a.cta-btn {
 
 section#faq {
   padding: 60px 0px 90px 0px;
-  background-color:  #dddddd;
+  background-color: #dddddd;
 
 }
 
@@ -2115,7 +2116,7 @@ section#faq {
 ------------------------------*/
 .recent-posts article {
 
-  background-color:  #dddddd;
+  background-color: #dddddd;
   box-shadow: 0 4px 16px rgba(var(--color-default-rgb), 0.1);
 
   height: 100%;
@@ -2174,7 +2175,7 @@ section#faq {
   height: 237px;
   padding: 20px 30px 20px 30px;
 
-  background:  #dddddd;
+  background: #dddddd;
 
 }
 
@@ -2604,7 +2605,7 @@ section#faq {
 /* Recent-posts Section - Home Page
 ------------------------------*/
 .recent-posts_1 article {
-  background:  #dddddd;
+  background: #dddddd;
   box-shadow: 0 4px 16px rgba(var(--color-default-rgb), 0.1);
   padding: 30px 30px 10px 30px;
   height: 100%;
@@ -2753,9 +2754,9 @@ section#faq {
 
 
 #icon-boxes .col-4.icon-boxes_1 {
-  border: 1px solid  #dddddd;
+  border: 1px solid #dddddd;
   height: 300px;
-  background:  #dddddd;
+  background: #dddddd;
   padding: 30px 20px 30px 20px;
 }
 
@@ -2789,11 +2790,11 @@ section#faq {
 }
 
 #icon-boxes .icon-boxes_2 .icon_head {
-  color:  #dddddd;
+  color: #dddddd;
 }
 
 #icon-boxes .icon-boxes_3 .icon_head {
-  color:  #dddddd;
+  color: #dddddd;
 }
 
 #icon-boxes .icon_learn {
@@ -2810,7 +2811,7 @@ section#faq {
 
 
 
-  color:  #dddddd;
+  color: #dddddd;
 }
 
 #icon-boxes .icon_sub_des {
@@ -2828,7 +2829,7 @@ section#faq {
 
   /* Grey */
 
-  color:  #dddddd;
+  color: #dddddd;
 
 }
 
@@ -2856,7 +2857,7 @@ section#faq {
 }
 
 #section2 .icon-boxes_1 {
-  border: 1px solid  #dddddd;
+  border: 1px solid #dddddd;
   height: 300px;
 
   background: #dddddd;
@@ -2893,11 +2894,11 @@ section#faq {
 }
 
 #section2 .icon-boxes_2 .icon_head {
-  color:  #dddddd;
+  color: #dddddd;
 }
 
 #section2 .icon-boxes_3 .icon_head {
-  color:  #dddddd;
+  color: #dddddd;
 }
 
 #section2 .icon_learn {
@@ -2914,7 +2915,7 @@ section#faq {
 
 
 
-  color:  #dddddd;
+  color: #dddddd;
 }
 
 #section2 .icon_sub_des {
@@ -2932,7 +2933,7 @@ section#faq {
 
   /* Grey */
 
-  color:  #dddddd;
+  color: #dddddd;
 
 }
 
@@ -3433,37 +3434,40 @@ div#email {
   background-color: #ffffff;
   padding: 100px;
 }
-#hero_conent 
-{
+
+#hero_conent {
   display: none;
 }
-@media (min-width: 992px)
-{
+
+@media (min-width: 992px) {
   #hero .container {
-   position: absolute;
-   top:8em;
+    position: absolute;
+    top: 8em;
   }
 }
-@media screen and (min-device-width: 750px) and (max-device-width: 800px) { 
+
+@media screen and (min-device-width: 750px) and (max-device-width: 800px) {
   #testimonials .profile.mt-auto {
 
     flex-wrap: wrap-reverse !important;
   }
 }
-@media screen and (min-device-width: 575px) and (max-device-width: 992px) { 
+
+@media screen and (min-device-width: 575px) and (max-device-width: 992px) {
   div#box_section {
     padding: 370px 0px;
-}
+  }
 }
 
 @media screen and (max-width:1024px) {
   .hero .container {
     position: absolute;
     top: 6em;
-}
+  }
+
   .hero img {
     object-fit: cover;
-    
+
   }
 
 
@@ -3488,12 +3492,15 @@ div#email {
     width: 300px;
     height: auto;
   }
+
   .our_services .icon-box {
     height: 300px;
   }
+
   .call-to-action h3 {
     font-size: 40px;
   }
+
   #section2 .icon-boxes_1 {
     height: 330px;
   }
@@ -3505,53 +3512,55 @@ div#email {
   .faq .faq-container .faq-active {
     height: 280px;
   }
-  #hero_conent 
-  {
-    --color-background:  #dddddd;
+
+  #hero_conent {
+    --color-background: #dddddd;
     display: block;
   }
 
-  #hero_conent  .button_class {
+  #hero_conent .button_class {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-}
+  }
 
   #hero_conent .hero_cont_head h2 {
-  
+
     font-family: 'Open Sans';
     font-style: normal;
     color: #212121;
     font-size: 26px;
     text-align: center;
     font-weight: 600;
-}
-#hero_conent .hero_cont_head p {
-  padding: 0px 20px;
-  font-family: 'Open Sans';
-  font-style: normal;
-  color: #212121;
-  font-size: 20px;
-  text-align: center;
-}
+  }
+
+  #hero_conent .hero_cont_head p {
+    padding: 0px 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #212121;
+    font-size: 20px;
+    text-align: center;
+  }
 
 
-  .hero .hero_resp
-  {
+  .hero .hero_resp {
     display: none;
 
   }
+
   #section2 .icon-boxes_3 {
     border: 1px solid #212121;
     height: 325px;
     background: #212121;
     padding: 20px 20px 10px 20px;
   }
+
   .hero {
     min-height: 60vh;
-    --color-background:  #dddddd;
+    --color-background: #dddddd;
 
   }
 
@@ -3559,7 +3568,7 @@ div#email {
     height: 55vh;
 
     object-fit: cover;
-   
+
   }
 
   #hero h2 {
@@ -3583,7 +3592,7 @@ div#email {
   }
 
   .hero .container {
-   display: block;
+    display: block;
   }
 
   .footer .footer-top .footer-info p {
@@ -3618,7 +3627,7 @@ div#email {
 
   section#faq {
     padding: 30px 0px 30px 0px !important;
-    background-color:  #dddddd;
+    background-color: #dddddd;
   }
 
   #faq .menu h2 {
@@ -3763,19 +3772,23 @@ div#email {
 #navmenu i.bi:hover {
   color: #000000;
 }
- i.bi.bi-facebook:hover {
+
+i.bi.bi-facebook:hover {
   color: #0077C8;
 }
 
 i.bi.bi-instagram:hover {
   color: #0077C8;
 }
+
 i.bi.bi-whatsapp:hover {
   color: #0077C8;
 }
+
 i.bi.bi-linkedin:hover {
   color: #0077C8;
 }
+
 i.bi.bi-twitter:hover {
   color: #0077C8;
 }
@@ -3787,7 +3800,7 @@ i.bi.bi-twitter:hover {
 @media only screen and (max-width: 768px) {
   .preloader {
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
 
   }
