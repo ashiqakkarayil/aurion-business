@@ -450,7 +450,7 @@ section {
 
   .navmenu .dropdown .dropdown ul {
     top: 0;
-    left: -90%;
+    left: 90%;
     visibility: hidden;
   }
 
@@ -459,6 +459,7 @@ section {
     top: 0;
     left: 100%;
     visibility: visible;
+
   }
 
   .navmenu .megamenu {
@@ -514,6 +515,21 @@ section {
 /* Mobile Navigation */
 @media (max-width: 1199px) {
 
+  .portfolio ul.portfolio-filters.isotope-filters.aos-init.aos-animate {
+    display: block !important;
+  }
+
+  i.bi.bi-chevron-right {
+    transform: rotate(92deg);
+  }
+
+  .navmenu .active i.bi.bi-chevron-right,
+  .navmenu .active:focus i.bi.bi-chevron-right {
+    background-color: rgba(var(--color-primary-rgb), 0.1);
+    /* color: var(--color-inverse); */
+
+    transform: rotate(270deg);
+  }
 
   ul.dd-box-shadow.second.dropdown-active {
     margin: 0px !important;
