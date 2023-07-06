@@ -226,7 +226,7 @@ main#main {
   font-family: 'Open Sans';
   font-style: normal;
 
-  color: #555555;
+  color: #1c1c1c;
 }
 
 .button_class {
@@ -283,7 +283,7 @@ main#main {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
 
 
@@ -356,6 +356,7 @@ section {
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
+    height: auto !important;
   }
 
 
@@ -512,6 +513,10 @@ section {
 /* Mobile Navigation */
 @media (max-width: 1199px) {
 
+
+  .navmenu  a.dropdown-item {
+    font-size: 16px;
+}
   #header .social-links {
     display: none;
   }
@@ -533,10 +538,10 @@ section {
   .navmenu ul {
     display: none;
     position: absolute;
-    inset: 60px 20px 20px 20px;
+    inset: 60px 10px 20px 10px;
     padding: 10px 0;
     margin: 0;
-    height: 40vh;
+    height: 60vh;
     border-radius: 6px;
     background-color: var(--color-nav-mobile-background);
     overflow-y: auto;
@@ -576,8 +581,9 @@ section {
 
   .navmenu a i:hover,
   .navmenu a:focus i:hover {
-    background-color: var(--color-primary);
+    background-color: rgba(var(--color-primary-rgb), 0.1);
     color: var(--color-inverse);
+   
   }
 
   .navmenu a:hover,
@@ -596,12 +602,14 @@ section {
   .navmenu .dropdown ul,
   .navmenu .megamenu ul {
     position: static;
+    text-decoration: none;
     display: none;
     z-index: 99;
-    padding: 10px 0;
-    margin: 10px 20px;
+    padding: 10px 10px;
+    margin: 0px 0px;
     background-color: var(--color-nav-dropdown-background);
     transition: all 0.5s ease-in-out;
+    list-style-type: none;
   }
 
   .navmenu .dropdown ul ul,
@@ -612,7 +620,9 @@ section {
   .navmenu .dropdown>.dropdown-active,
   .navmenu .megamenu>.dropdown-active {
     display: block;
-    background-color: rgba(33, 37, 41, 0.03);
+    background-color: #ffff;
+    /* border: 2px solid; */
+    margin: 10px 15px;
   }
 
   .mobile-nav-active {
@@ -1475,7 +1485,7 @@ a.btn.btn-get-started.align-self-start {
 .portfolio .portfolio-filters li {
   cursor: pointer;
   display: inline-block;
-  padding: 8px 15px 10px 15px;
+  padding: 8px 15px 10px 5px;
   margin: 0;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
@@ -1494,7 +1504,11 @@ a.btn.btn-get-started.align-self-start {
 }
 
 .portfolio ul.portfolio-filters.isotope-filters.aos-init.aos-animate {
-  margin-left: 103px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 8px;
+
 }
 
 .portfolio .portfolio-filters li:hover,
@@ -3639,7 +3653,7 @@ div#email {
   }
 
   .menu h2 {
-    width: 300px;
+    width: 320px;
     height: auto;
   }
 
@@ -3747,7 +3761,7 @@ div#email {
 }
 
 #navmenu i.bi:hover {
-  color: #0077C8;
+  color: #000000;
 }
  i.bi.bi-facebook:hover {
   color: #0077C8;
